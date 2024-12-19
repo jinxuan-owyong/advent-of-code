@@ -8,3 +8,4 @@
 | 4   | Ceres Search       | DFS               | Brute Force         |
 | 5   | Print Queue        | Graph             | Topological Sorting |
 | 6   | Guard Gallivant    | Array, Simulation | Brute Force*        |
+| 7   | Bridge Repair      | Recursion         | Backtracking        |
