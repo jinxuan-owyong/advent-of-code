@@ -23,7 +23,7 @@ mkdir -p $day_path/2
 set -x
 curl -H "Cookie: session=$session" "https://adventofcode.com/${year}/day/${day}/input" > $day_path/1/puzzle.in
 touch $day_path/1/1.in
-cp 2024/template.go $day_path/1/part1.go
+cp $year/template.go $day_path/1/part1.go
 touch $day_path/2/part2.go
 
 ln -s ../1/1.in $day_path/2/1.in
