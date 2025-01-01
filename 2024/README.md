@@ -36,3 +36,4 @@ Use the following `launch.json` to start the debugger. Enter inputs as required 
 | 6   | Guard Gallivant       | Array, Simulation | Brute Force*        |
 | 7   | Bridge Repair         | Recursion         | Backtracking        |
 | 8   | Resonant Collinearity | Array, HashSet    | Array, HashSet      |
+| 9   | Disk Fragmenter       | Two Pointers      | Binary Heap         |
