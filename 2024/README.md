@@ -38,3 +38,4 @@ Use the following `launch.json` to start the debugger. Enter inputs as required 
 | 8   | Resonant Collinearity | Array, HashSet     | Array, HashSet      |
 | 9   | Disk Fragmenter       | Two Pointers       | Binary Heap         |
 | 10  | Hoof It               | Depth-First Search | Depth-First Search  |
+| 11  | Plutonian Pebbles     | Array              | DFS, Memoisation    |
