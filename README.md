@@ -12,3 +12,31 @@
 ```sh
 bash getPuzzle.sh [<day>] [<year>]
 ```
+
+## Go
+
+### Running
+
+```sh
+go run partX.go < puzzle.in
+```
+
+### Debugging
+
+Use the following `launch.json` to start the debugger. Enter inputs as required in the integrated terminal, and at the end of the input, use ^D to indicate EOF
+
+```json
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Launch Package",
+            "type": "go",
+            "request": "launch",
+            "mode": "auto",
+            "program": "${fileDirname}",
+            "console": "integratedTerminal"
+        }
+    ]
+}
+```
